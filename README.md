@@ -4,6 +4,33 @@
   <meta charset="UTF-8">
   <title>Sunnnydale School Information Hub</title>
   <style>
+  footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 15px;
+      background: #1E90FF;
+      color: white;
+      border-radius: 8px;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #c7eaec;
+      color: #333;
+      line-height: 1.8;
+    }
+     header {
+      text-align: center;
+      padding: 20px;
+      background: #1E90FF;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
     h1 {
       font-size: 24px;
       font-weight: bold;
@@ -71,5 +98,8 @@
     <p>Email: <a href="mailto:info@sunnydaleschool.edu" title="Click to copy email">info@sunnydaleschool.edu</a></p>
     <p>Phone: <a href="tel:+123456789" title="Click to copy email">+1 234 567 89</a></p>
   </div>
+  <footer>
+  <p>&copy; Sunnydale school | all rights preserved 2025</p>
+  </footer>
 </body>
 </html>
